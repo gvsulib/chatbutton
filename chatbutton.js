@@ -1,4 +1,5 @@
 (function() {
+	global chatSystem;
 	if(typeof chatSystem == "undefined") {
 		var chatSystem = 'CMS';
 	}
