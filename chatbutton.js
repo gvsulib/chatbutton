@@ -2,6 +2,7 @@
 	var chatReferrer = window.location.host;
 	var li = document.createElement('li');
 	li.id = 'library-chat';
+	li.className = 'library-chat';
 	var libChatDiv = document.createElement('a');
 	libChatDiv.appendChild(document.createTextNode('Ask a Question'));
 	libChatDiv.className = 'btn btn-default';
